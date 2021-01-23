@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .div{
+            height:300px;
+            width: 300px;
+            border: 1px solid red;
+            position: relative;
+            top:50px;
+            left: 10px;
+            /* right: 0; */
+            /* bottom: 0; */
+        }
+        .text{
+            height: 250px;
+            width: 250px;
+            border: 1px solid black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            
+        }
+        .button{
+            height: 400px;
+            width: 400px;
+            margin-top: 80px;
+            position: absolute;
+            border: 2px solid grey;
+            background-color: aliceblue;
+            right:0;
+
+        }
+
+        .div:hover{
+            background-color: rgb(185, 255, 127);
+        }
+        .button:hover{
+            background-color: rgb(180, 190, 35);
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+            color: #fff;
+            background-color: black;
+            border: 1px solid red;
+            position: relative;
+            top: 200px;
+            left: 130px;
+            
+        }
+        a:hover{
+            background-color: #fff;
+            color: black;
+        }
+        .text{
+            padding: 10px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: green;text-align: center;text-decoration: underline;">CSS Position</h2>
+    <div class="div">   
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora ratione perspiciatis aliquam quos dicta, hic, ut fuga unde corporis optio expedita sunt in quod tempore rerum autem cumque vero.</p>
+        </div> 
+    </div>
+
+    <div class="button">
+        <a href="#">Read more</a>
+    </div>
+    
+</body>
+</html>
